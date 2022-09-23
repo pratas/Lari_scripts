@@ -1,0 +1,4 @@
+create_average_coverage_bed_file - it creates an average of the coverages (in the bed files) for all the available file organs to a specific virus; 
+create_merged_coverage_bed_file - it creates a sum of the coverages (in the bed files) for all the available file organs to a specific virus; 
+create_minor_variant_profiles - it creates a profile plot with the minor variant positions and coding info;
+
