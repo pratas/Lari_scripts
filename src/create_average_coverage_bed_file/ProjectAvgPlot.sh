@@ -20,8 +20,8 @@ paste $name_data | awk 'BEGIN{k=0}{ sumrows=0;
       {
       sumrows+= $i 
       }; 
-    print ++k"\t"sumrows/NF+0
-}' > $LPATH-all-organs-merged-sum.csv;
+    print ++k"\t"sumrows/NF
+}' > $LPATH-all-organs-merged-average-sum.csv;
 #
 rm -f tmp_file.tmp
 #
