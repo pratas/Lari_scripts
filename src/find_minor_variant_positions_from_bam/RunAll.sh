@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #conda install -c bioconda ivar="1.3.1" -y
-#how to create a GFF3 file
+# The gff3 has an warning because of the end of file has a blank line before
 #
 THRESHOLD="0.03";
 #
